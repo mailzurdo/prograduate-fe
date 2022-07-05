@@ -1,0 +1,6 @@
+.divContainer{
+    background-color: #E6E6E6;
+    background: rgb(175, 175, 175);
+    background: linear-gradient(90deg, rgb(175, 175, 175) 0%, rgba(230,230,230,1) 35%, rgba(255,255,255,1) 100%); 
+    min-height: 100vh;
+}
