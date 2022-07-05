@@ -27,7 +27,7 @@ function SubirActa() {
 
     }
 
-    return <div className="container">
+    return <div>
         <form onSubmit={handleSubmit}>
             <h3>Cargar Acta</h3>
             <input type="file" id="inputFile" name="inputFile" accept=".csv" onChange={handleChange}/>

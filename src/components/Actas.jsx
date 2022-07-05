@@ -1,4 +1,5 @@
 import React from 'react'
+import PrincipalActas from './PrincipalActas'
 import SubirActa from './SubirActa'
 
 const Actas = () => {
@@ -6,6 +7,7 @@ const Actas = () => {
     <div>
         <h2>Gestión de Actas</h2>
         <SubirActa/>
+        <PrincipalActas />
     </div>
   )
 }
