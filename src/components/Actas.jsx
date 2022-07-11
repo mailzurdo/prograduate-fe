@@ -1,13 +1,17 @@
 import React from 'react'
 import PrincipalActas from './PrincipalActas'
-import SubirActa from './SubirActa'
+//import SubirActa from './SubirActa'
+import { Container } from 'react-bootstrap'
+import HeaderActa from './HeaderActa'
 
 const Actas = () => {
   return (
     <div>
-        <h2>Gestión de Actas</h2>
-        <SubirActa/>
+      <Container>
+        <HeaderActa />
+        {/* <SubirActa/> */}
         <PrincipalActas />
+        </Container>
     </div>
   )
 }

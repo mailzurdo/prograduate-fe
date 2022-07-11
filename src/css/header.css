@@ -10,3 +10,14 @@
     font-size: calc(10px + 2vmin);
     color: #4D4D4D;
   }
+
+  .headerActa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }

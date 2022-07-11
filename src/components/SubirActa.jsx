@@ -1,5 +1,6 @@
 import {useState} from "react";
 import axios from 'axios';
+import Button from 'react-bootstrap/Button'
 
 function SubirActa() {
 
@@ -29,9 +30,8 @@ function SubirActa() {
 
     return <div>
         <form onSubmit={handleSubmit}>
-            <h3>Cargar Acta</h3>
             <input type="file" id="inputFile" name="inputFile" accept=".csv" onChange={handleChange}/>
-            <button type="submit">Cargar</button>
+            <Button variant='success' type="submit">Guardar</Button>
         </form>
     </div>
 }

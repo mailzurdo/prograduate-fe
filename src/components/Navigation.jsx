@@ -16,9 +16,9 @@ const Navigation = () => {
             <NavLink to="/Usuarios" activeStyle> Usuarios </NavLink>
             <NavLink to="/Cursos" activeStyle> Cursos/Carreras </NavLink>
          </NavMenu>
-         <NavBtn>
+         {/* <NavBtn>
             <NavBtnLink to='/signin'>Entrar</NavBtnLink>
-         </NavBtn>
+         </NavBtn> */}
        </Nav>
            
        </>

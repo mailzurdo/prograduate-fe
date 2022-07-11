@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import {NavLink as Link } from 'react-router-dom'
 import {FaBars} from 'react-icons/fa'
-import { findByLabelText } from '@testing-library/react';
+
 
 export const Nav = styled.nav`
 background: rgb(196,196,196);

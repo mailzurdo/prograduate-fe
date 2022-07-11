@@ -7,6 +7,7 @@ import Usuarios from './components/Usuarios'
 import Cursos from './components/Cursos'
 import Home from './components/Home'
 import Header from './components/Header'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {
   return (
